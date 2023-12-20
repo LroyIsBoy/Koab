@@ -11,12 +11,12 @@
         width: 50px;
     }
     body {
-        background-color: #FFFFFF;
+        background-color: #000000;
     }
     .manu {
         position: absolute;
         top: 0%;
-        background-color: #00BFFF;
+        background-color: #000000;
         width: 100%;
     }
     .container {
@@ -33,7 +33,7 @@
         text-align: center;
         color: white;
         gap: 150px;
-        background-color: #00FFFF;
+        background-color: #6B6B6B;
         width: 300px;
         border-radius: 0.5em;
         padding: 1em;
@@ -47,7 +47,7 @@
         color: white;
         gap: 55px;
         margin: 10px 0;
-        background-color: #00FFFF;
+        background-color: #6B6B6B;
         width: 300px;
         border-radius: 0.5em;
         padding: 1em;
@@ -74,7 +74,7 @@
         color: white;
         gap: 150px;
         margin: 10px 0;
-        background-color: #00FFFF;
+        background-color: #6B6B6B;
         width: 300px;
         border-radius: 0.5em;
         padding: 1em;
@@ -85,7 +85,7 @@
         border-radius: 0.5em;
         padding: 0.1em;
         height: 50px;
-        color: #00BFFF;
+        color: #6B6B6B;
         background-color: #FFFFFF;
         font-weight: bold;
     }
@@ -127,7 +127,7 @@
         color: white;
         margin: 10px 0;
         gap: 50px;
-        background-color: #00BFFF;
+        background-color: #004294;
         width: 300px;
         border-radius: 0.5em;
         padding: 1em;
@@ -146,7 +146,7 @@
         text-align: center;
         color: white;
         gap: 50px;
-        background-color: #00FFFF;
+        background-color: #FF1100;
         width: 300px;
         border-radius: 0.5em;
         padding: 1em;
@@ -162,7 +162,7 @@
         top: 72.5%;
         left: 50%;
         transform: translate(-50%, -50%);
-        background-color: #00FFFF;
+        background-color: #4A4A4A;
         width: 250px;
         padding: 0.5em;
         border-radius: 0.5em;
@@ -186,24 +186,24 @@
     }
     #cencel {
         background-color: #FFFFFF;
-        color: #00FFFF;
-        border: 1px solid #00FFFF;
+        color: #4A4A4A;
+        border: 1px solid #4A4A4A;
     }
 </style></head>
 
 <body>
     <div class="manu">
-        <img src="IMG/logo.png">
+        <img src="img/logo.png">
     </div>
     <section class="container" id="container-show">
         <header>
             <div class="img">
                 <h2>GETAWAYS</h2>
-                <img src="IMG/logo.png">
+                <img src="img/logo.png">
             </div>
             <div class="pay">
                 <h2>PAYMENT</h2>
-                <img src="IMG/bakong.png" id="pay-show">
+                <img src="img/bakong.png" id="pay-show">
                 <button onclick="ch()">&gt;</button>
             </div>
             <form action="submit.html" method="get" class="btn">
@@ -222,20 +222,20 @@
         <header>
             <div class="aba">
                 <h2>PAY WITH</h2>
-                <img src="IMG/aba.webp">
+                <img src="img/aba.webp">
                 <button onclick="active(aba)">Select</button>
             </div>
             <div class="bakong">
                 <h2>PAY WITH</h2>
-                <img src="IMG/bakong.png">
+                <img src="img/bakong.png">
                 <button onclick="active(ba)">Select</button>
             </div>
         </header>
     </section>
 
 <script>
-    const aba = "IMG/aba.webp"
-    const ba = "IMG/bakong.png"
+    const aba = "img/aba.webp"
+    const ba = "img/bakong.png"
     function ch() {
         document.getElementById("container-show").style.display = "none"
         document.getElementById("selcetion-show").style.display = "block"
